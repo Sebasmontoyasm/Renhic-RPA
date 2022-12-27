@@ -6290,7 +6290,7 @@
         }
       }
     },
-    "net6.0-windows7.0/win81-x64": {
+    "net6.0-windows7.0/win10-x64": {
       "AvalonEdit/6.0.1": {
         "type": "package",
         "compile": {
@@ -7432,11 +7432,11 @@
       "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
         "type": "package",
         "runtime": {
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {},
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {}
+          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {},
+          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {}
         },
         "native": {
-          "runtimes/win81-x64/native/_._": {}
+          "runtimes/win10-x64/native/_._": {}
         }
       },
       "Microsoft.NETCore.Platforms/5.0.1": {
@@ -7458,10 +7458,7 @@
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "runtime.win81-x64.Microsoft.NETCore.Windows.ApiSets": "1.0.1"
-        }
+        "type": "package"
       },
       "Microsoft.PowerShell.Commands.Diagnostics/7.1.4": {
         "type": "package",
@@ -8608,12 +8605,6 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
-        }
-      },
-      "runtime.win81-x64.Microsoft.NETCore.Windows.ApiSets/1.0.1": {
-        "type": "package",
-        "native": {
-          "runtimes/win81-x64/native/_._": {}
         }
       },
       "sautinsoft.pdffocus/8.5.10.20": {
@@ -16129,28 +16120,6 @@
         "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
         "runtimes/win/lib/netcore50/System.Private.Uri.dll",
         "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
-      ]
-    },
-    "runtime.win81-x64.Microsoft.NETCore.Windows.ApiSets/1.0.1": {
-      "sha512": "ORzCMW0hj0mJ4+waqA26AeUfFnynxRlMrlsJnuuoOexQczhPRDt+5sXtDHGh/uT9DOFoXFkbr2BTCKDRsFbrDQ==",
-      "type": "package",
-      "path": "runtime.win81-x64.microsoft.netcore.windows.apisets/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "runtime.win81-x64.microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
-        "runtime.win81-x64.microsoft.netcore.windows.apisets.nuspec",
-        "runtimes/win81-x64/native/API-MS-Win-Core-Kernel32-Private-L1-1-2.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-kernel32-legacy-l1-1-2.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-memory-l1-1-3.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-namedpipe-l1-2-1.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-string-obsolete-l1-1-1.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-sysinfo-l1-2-2.dll",
-        "runtimes/win81-x64/native/api-ms-win-core-sysinfo-l1-2-3.dll",
-        "runtimes/win81-x64/native/api-ms-win-security-cpwl-l1-1-0.dll",
-        "runtimes/win81-x64/native/ext-ms-win-ntuser-keyboard-l1-2-1.dll"
       ]
     },
     "sautinsoft.pdffocus/8.5.10.20": {
@@ -24039,15 +24008,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\Sebas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "PEDRO-RENHIC",
       "projectName": "PEDRO-RENHIC",
-      "projectPath": "C:\\Users\\Administrador\\Documents\\RPA\\Proyectos\\PEDRO-RENICH\\.local",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\Documents\\RPA\\Proyectos\\PEDRO-RENICH\\.local"
+      "projectPath": "S:\\SS\\Proyectos\\Renhic\\Renhic-RPA\\.local",
+      "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
+      "outputPath": "S:\\SS\\Proyectos\\Renhic\\Renhic-RPA\\.local",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ]
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -24123,11 +24096,11 @@
             "version": "[8.5.10.20, 8.5.10.20]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Administrador\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Sebas\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
-      "win81-x64": {
+      "win10-x64": {
         "#import": []
       }
     }
